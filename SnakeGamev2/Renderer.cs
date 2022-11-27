@@ -28,8 +28,7 @@ namespace SnakeGamev2
 
         public void Draw()
         {
-            Console.SetCursorPosition(0,0);
-            Console.CursorVisible = false;
+            Console.Clear();
             for(int i = 0; i < Console.WindowHeight; ++i)
                 Console.WriteLine(buffer[i]);
         }
